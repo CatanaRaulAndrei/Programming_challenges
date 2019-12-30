@@ -1,7 +1,6 @@
-/* CERINTA(pbinfo)
+/* 
 Se dă un șir a[1], a[2], …, a[n] de numere naturale și un număr natural k.
-
-Cerința
+CERINTA(pbinfo)
 Să se determine cele mai mari k numere din șir.
 
 Date de intrare
