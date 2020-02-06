@@ -33,7 +33,8 @@ Sample Output
 1 2 3 4
 Explanation
 
-, and our non-decreasing list is . The values  and  both occur twice in the list, so we remove the two duplicate nodes. We then return our updated (ascending) list, which is .
+N=6, and our non-decreasing list is {1,2,2,3,3,4}. The values 2 and 3 both occur twice in the list, so we remove the two duplicate nodes. 
+We then return our updated (ascending) list, which is {1,2,3,4}.
 */
 
 #include <cstddef>
