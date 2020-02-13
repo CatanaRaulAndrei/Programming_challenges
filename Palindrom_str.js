@@ -23,16 +23,26 @@ function palindrome(str) {
   return reverse_str === lower_case_str ;
 }
 
-palindrome("eye"); // true
-palindrome("_eye"); // true
-palindrome("race car"); // true
-palindrome("not a palindrome"); // false
-palindrome("A man, a plan, a canal. Panama"); // true
-palindrome("never odd or even"); // true
-palindrome("nope"); // false
-palindrome("almostomla"); // false
-palindrome("My age is 0, 0 si ega ym."); // true
-palindrome("1 eye for of 1 eye."); // false
-palindrome("0_0 (: /-\ :) 0-0");  // true
-palindrome("five|\_/|four"); // false
-
+document.write(palindrome("eye")); // true
+document.write("\n");
+document.write(palindrome("_eye")); // true
+document.write("\n");
+document.write(palindrome("race car")); // true
+document.write("\n");
+document.write(palindrome("not a palindrome")); // false
+document.write("\n");
+document.write(palindrome("A man, a plan, a canal. Panama")); // true
+document.write("\n");
+document.write(palindrome("never odd or even")); // true
+document.write("\n");
+document.write(palindrome("nope")); // false
+document.write("\n");
+document.write(palindrome("almostomla")); // false
+document.write("\n");
+document.write(palindrome("My age is 0, 0 si ega ym.")); // true
+document.write("\n");
+document.write(palindrome("1 eye for of 1 eye.")); // false
+document.write("\n");
+document.write(palindrome("0_0 (: /-\ :) 0-0"));  // true
+document.write("\n");
+document.write(palindrome("five|\_/|four")); // false
