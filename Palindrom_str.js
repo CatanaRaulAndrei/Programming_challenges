@@ -24,25 +24,25 @@ function palindrome(str) {
 }
 
 document.write(palindrome("eye")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("_eye")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("race car")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("not a palindrome")); // false
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("A man, a plan, a canal. Panama")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("never odd or even")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("nope")); // false
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("almostomla")); // false
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("My age is 0, 0 si ega ym.")); // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("1 eye for of 1 eye.")); // false
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("0_0 (: /-\ :) 0-0"));  // true
-document.write("\n");
+document.write("<br>");
 document.write(palindrome("five|\_/|four")); // false
