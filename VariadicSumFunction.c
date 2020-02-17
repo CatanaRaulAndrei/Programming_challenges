@@ -20,7 +20,7 @@ int  sum (int count,...) {
 int
 main( int argc, char**argv){
  system( "clear" );
- printf( "\n\n Variadic functions: \n\n" );
+ printf( "\n\n Variadic sum functions: \n\n" );
 
  printf( "\n 10 + 20 = %d ",           sum( 2, 10, 20 )  );
  printf( "\n 10 + 20 + 30 = %d ",      sum( 3, 10, 20, 30 )  );
