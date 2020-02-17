@@ -1,3 +1,12 @@
+#include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define MIN_ELEMENT 1
+#define MAX_ELEMENT 1000000
+
+
 int  sum (int count,...) {
     int sum=0;
     va_list values;
